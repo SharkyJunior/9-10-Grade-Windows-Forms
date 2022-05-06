@@ -1,0 +1,10 @@
+C:\Users\ADMIN\source\repos\PushMeApp\PushMeApp\bin\Debug\PushMeApp.exe.config
+C:\Users\ADMIN\source\repos\PushMeApp\PushMeApp\bin\Debug\PushMeApp.exe
+C:\Users\ADMIN\source\repos\PushMeApp\PushMeApp\bin\Debug\PushMeApp.pdb
+C:\Users\ADMIN\source\repos\PushMeApp\PushMeApp\obj\Debug\PushMeApp.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\PushMeApp\PushMeApp\obj\Debug\PushMeApp.Form1.resources
+C:\Users\ADMIN\source\repos\PushMeApp\PushMeApp\obj\Debug\PushMeApp.Properties.Resources.resources
+C:\Users\ADMIN\source\repos\PushMeApp\PushMeApp\obj\Debug\PushMeApp.csproj.GenerateResource.cache
+C:\Users\ADMIN\source\repos\PushMeApp\PushMeApp\obj\Debug\PushMeApp.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\PushMeApp\PushMeApp\obj\Debug\PushMeApp.exe
+C:\Users\ADMIN\source\repos\PushMeApp\PushMeApp\obj\Debug\PushMeApp.pdb

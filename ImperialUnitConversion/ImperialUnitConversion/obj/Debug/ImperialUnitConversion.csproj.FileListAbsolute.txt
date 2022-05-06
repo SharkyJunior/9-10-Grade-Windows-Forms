@@ -1,0 +1,10 @@
+C:\Users\ADMIN\source\repos\ImperialUnitConversion\ImperialUnitConversion\bin\Debug\ImperialUnitConversion.exe.config
+C:\Users\ADMIN\source\repos\ImperialUnitConversion\ImperialUnitConversion\bin\Debug\ImperialUnitConversion.exe
+C:\Users\ADMIN\source\repos\ImperialUnitConversion\ImperialUnitConversion\bin\Debug\ImperialUnitConversion.pdb
+C:\Users\ADMIN\source\repos\ImperialUnitConversion\ImperialUnitConversion\obj\Debug\ImperialUnitConversion.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\ImperialUnitConversion\ImperialUnitConversion\obj\Debug\ImperialUnitConversion.Form1.resources
+C:\Users\ADMIN\source\repos\ImperialUnitConversion\ImperialUnitConversion\obj\Debug\ImperialUnitConversion.Properties.Resources.resources
+C:\Users\ADMIN\source\repos\ImperialUnitConversion\ImperialUnitConversion\obj\Debug\ImperialUnitConversion.csproj.GenerateResource.cache
+C:\Users\ADMIN\source\repos\ImperialUnitConversion\ImperialUnitConversion\obj\Debug\ImperialUnitConversion.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\ImperialUnitConversion\ImperialUnitConversion\obj\Debug\ImperialUnitConversion.exe
+C:\Users\ADMIN\source\repos\ImperialUnitConversion\ImperialUnitConversion\obj\Debug\ImperialUnitConversion.pdb
