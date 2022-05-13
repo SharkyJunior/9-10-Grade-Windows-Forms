@@ -8,3 +8,13 @@ C:\Users\ADMIN\source\repos\Buttons\Buttons\obj\Debug\Buttons.csproj.GenerateRes
 C:\Users\ADMIN\source\repos\Buttons\Buttons\obj\Debug\Buttons.csproj.CoreCompileInputs.cache
 C:\Users\ADMIN\source\repos\Buttons\Buttons\obj\Debug\Buttons.exe
 C:\Users\ADMIN\source\repos\Buttons\Buttons\obj\Debug\Buttons.pdb
+C:\Users\ADMIN\source\repos\WindowsForms\OOP-Windows-Forms\Buttons\Buttons\bin\Debug\Buttons.exe.config
+C:\Users\ADMIN\source\repos\WindowsForms\OOP-Windows-Forms\Buttons\Buttons\bin\Debug\Buttons.exe
+C:\Users\ADMIN\source\repos\WindowsForms\OOP-Windows-Forms\Buttons\Buttons\bin\Debug\Buttons.pdb
+C:\Users\ADMIN\source\repos\WindowsForms\OOP-Windows-Forms\Buttons\Buttons\obj\Debug\Buttons.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\WindowsForms\OOP-Windows-Forms\Buttons\Buttons\obj\Debug\Buttons.Form1.resources
+C:\Users\ADMIN\source\repos\WindowsForms\OOP-Windows-Forms\Buttons\Buttons\obj\Debug\Buttons.Properties.Resources.resources
+C:\Users\ADMIN\source\repos\WindowsForms\OOP-Windows-Forms\Buttons\Buttons\obj\Debug\Buttons.csproj.GenerateResource.cache
+C:\Users\ADMIN\source\repos\WindowsForms\OOP-Windows-Forms\Buttons\Buttons\obj\Debug\Buttons.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\WindowsForms\OOP-Windows-Forms\Buttons\Buttons\obj\Debug\Buttons.exe
+C:\Users\ADMIN\source\repos\WindowsForms\OOP-Windows-Forms\Buttons\Buttons\obj\Debug\Buttons.pdb

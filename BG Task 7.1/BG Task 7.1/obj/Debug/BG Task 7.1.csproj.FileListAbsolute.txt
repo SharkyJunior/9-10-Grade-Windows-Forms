@@ -1,0 +1,12 @@
+C:\Users\ADMIN\source\repos\BG Task 7.1\BG Task 7.1\bin\Debug\BG Task 7.1.exe.config
+C:\Users\ADMIN\source\repos\BG Task 7.1\BG Task 7.1\bin\Debug\BG Task 7.1.exe
+C:\Users\ADMIN\source\repos\BG Task 7.1\BG Task 7.1\bin\Debug\BG Task 7.1.pdb
+C:\Users\ADMIN\source\repos\BG Task 7.1\BG Task 7.1\obj\Debug\BG Task 7.1.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\BG Task 7.1\BG Task 7.1\obj\Debug\BG_Task_7._1.Main.resources
+C:\Users\ADMIN\source\repos\BG Task 7.1\BG Task 7.1\obj\Debug\BG_Task_7._1.NewVehicleForm.resources
+C:\Users\ADMIN\source\repos\BG Task 7.1\BG Task 7.1\obj\Debug\BG_Task_7._1.Properties.Resources.resources
+C:\Users\ADMIN\source\repos\BG Task 7.1\BG Task 7.1\obj\Debug\BG Task 7.1.csproj.GenerateResource.cache
+C:\Users\ADMIN\source\repos\BG Task 7.1\BG Task 7.1\obj\Debug\BG Task 7.1.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\BG Task 7.1\BG Task 7.1\obj\Debug\BG Task 7.1.exe
+C:\Users\ADMIN\source\repos\BG Task 7.1\BG Task 7.1\obj\Debug\BG Task 7.1.pdb
+C:\Users\ADMIN\source\repos\BG Task 7.1\BG Task 7.1\obj\Debug\BG_Task_7._1.EditVehicleForm.resources
