@@ -16,14 +16,14 @@ namespace SolarSystem
 
         static Sun sun;
         static Saturn saturn;
-        static Mars mars;
+        static MoonScythe moonScythe;
         
         public Form1()
         {
             InitializeComponent();
             sun = new Sun(random.Next(100, 300), random.Next(100, 300), 200);
             saturn = new Saturn(random.Next(300, 500), random.Next(300, 500), 150);
-            mars = new Mars(random.Next(300, 500), random.Next(100, 300), 100);
+            moonScythe = new MoonScythe(random.Next(300, 500), random.Next(300, 500), 100);
         }
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -35,12 +35,12 @@ namespace SolarSystem
             using (Graphics g = e.Graphics)
             {
                 this.BackColor = Color.Navy;
+                if (moonScytheToolStripMenuItem.Checked)
+                    moonScythe.Draw(g);
                 if (sunToolStripMenuItem.Checked)
                     sun.Draw(g);
                 if (saturnToolStripMenuItem.Checked)
                     saturn.Draw(g);
-                if (marsToolStripMenuItem.Checked)
-                    mars.Draw(g);
             }
         }
 
@@ -56,9 +56,17 @@ namespace SolarSystem
             Refresh();
         }
 
-        private void marsToolStripMenuItem_Click(object sender, EventArgs e)
+        private void moonScytheToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            marsToolStripMenuItem.Checked = !marsToolStripMenuItem.Checked;
+            moonScytheToolStripMenuItem.Checked = !moonScytheToolStripMenuItem.Checked;
+            Refresh();
+        }
+
+        private void newBodiesPositionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            sun = new Sun(random.Next(100, 300), random.Next(100, 300), 200);
+            saturn = new Saturn(random.Next(300, 500), random.Next(300, 500), 150);
+            moonScythe = new MoonScythe(random.Next(300, 500), random.Next(300, 500), 100);
             Refresh();
         }
     }

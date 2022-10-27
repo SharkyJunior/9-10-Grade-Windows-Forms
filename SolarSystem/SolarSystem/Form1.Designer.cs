@@ -33,15 +33,17 @@
             this.cosmicBodiesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sunToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saturnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.marsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.moonScytheToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.newBodiesPositionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cosmicBodiesToolStripMenuItem});
+            this.cosmicBodiesToolStripMenuItem,
+            this.newBodiesPositionToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1303, 24);
@@ -53,7 +55,7 @@
             this.cosmicBodiesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.sunToolStripMenuItem,
             this.saturnToolStripMenuItem,
-            this.marsToolStripMenuItem});
+            this.moonScytheToolStripMenuItem});
             this.cosmicBodiesToolStripMenuItem.Name = "cosmicBodiesToolStripMenuItem";
             this.cosmicBodiesToolStripMenuItem.Size = new System.Drawing.Size(163, 20);
             this.cosmicBodiesToolStripMenuItem.Text = "Celestial Bodies On The Sky";
@@ -72,17 +74,24 @@
             this.saturnToolStripMenuItem.Text = "Saturn";
             this.saturnToolStripMenuItem.Click += new System.EventHandler(this.saturnToolStripMenuItem_Click);
             // 
-            // marsToolStripMenuItem
+            // moonScytheToolStripMenuItem
             // 
-            this.marsToolStripMenuItem.Name = "marsToolStripMenuItem";
-            this.marsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.marsToolStripMenuItem.Text = "Mars";
-            this.marsToolStripMenuItem.Click += new System.EventHandler(this.marsToolStripMenuItem_Click);
+            this.moonScytheToolStripMenuItem.Name = "moonScytheToolStripMenuItem";
+            this.moonScytheToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.moonScytheToolStripMenuItem.Text = "Moon Scythe";
+            this.moonScytheToolStripMenuItem.Click += new System.EventHandler(this.moonScytheToolStripMenuItem_Click);
             // 
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
+            // newBodiesPositionToolStripMenuItem
+            // 
+            this.newBodiesPositionToolStripMenuItem.Name = "newBodiesPositionToolStripMenuItem";
+            this.newBodiesPositionToolStripMenuItem.Size = new System.Drawing.Size(127, 20);
+            this.newBodiesPositionToolStripMenuItem.Text = "New Bodies Position";
+            this.newBodiesPositionToolStripMenuItem.Click += new System.EventHandler(this.newBodiesPositionToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -92,7 +101,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Celestial Bodies";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
             this.menuStrip1.ResumeLayout(false);
@@ -109,7 +118,8 @@
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem sunToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem saturnToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem marsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem moonScytheToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem newBodiesPositionToolStripMenuItem;
     }
 }
 
