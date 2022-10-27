@@ -19,12 +19,18 @@ namespace Buttons
 
         private void button1_Click(object sender, EventArgs e)
         {
-            button2.Location = new Point(button2.Location.X-10 >= 0 ? button2.Location.X - 10 : this.Width - button2.Width, button2.Location.Y);
+            if (button2.Location.X < 10 && button2.Location.X > 0)
+                button2.Location = new Point(0, button2.Location.Y);
+            else
+                button2.Location = new Point(button2.Location.X-10 > 0 ? button2.Location.X - 10 : ClientRectangle.Width - button2.Width, button2.Location.Y);
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            button2.Location = new Point(button2.Location.X + 10 <= this.Width - button2.Width ? button2.Location.X + 10 : button2.Location.X, button2.Location.Y);
+            int offset = 10;
+            if (ClientRectangle.Width - (button2.Location.X + button2.Width) < 10)
+                offset = ClientRectangle.Width - (button2.Location.X + button2.Width);
+            button2.Location = new Point(button2.Location.X >= ClientRectangle.Width - button2.Width ? button2.Left : button2.Location.X + offset, button2.Location.Y);
         }
     }
 }
