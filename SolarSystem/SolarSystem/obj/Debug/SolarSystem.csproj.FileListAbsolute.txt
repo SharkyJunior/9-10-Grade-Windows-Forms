@@ -1,0 +1,11 @@
+D:\OOP-Windows-Forms\SolarSystem\SolarSystem\bin\Debug\SolarSystem.exe.config
+D:\OOP-Windows-Forms\SolarSystem\SolarSystem\bin\Debug\SolarSystem.exe
+D:\OOP-Windows-Forms\SolarSystem\SolarSystem\bin\Debug\SolarSystem.pdb
+D:\OOP-Windows-Forms\SolarSystem\SolarSystem\obj\Debug\SolarSystem.csproj.AssemblyReference.cache
+D:\OOP-Windows-Forms\SolarSystem\SolarSystem\obj\Debug\SolarSystem.csproj.SuggestedBindingRedirects.cache
+D:\OOP-Windows-Forms\SolarSystem\SolarSystem\obj\Debug\SolarSystem.Form1.resources
+D:\OOP-Windows-Forms\SolarSystem\SolarSystem\obj\Debug\SolarSystem.Properties.Resources.resources
+D:\OOP-Windows-Forms\SolarSystem\SolarSystem\obj\Debug\SolarSystem.csproj.GenerateResource.cache
+D:\OOP-Windows-Forms\SolarSystem\SolarSystem\obj\Debug\SolarSystem.csproj.CoreCompileInputs.cache
+D:\OOP-Windows-Forms\SolarSystem\SolarSystem\obj\Debug\SolarSystem.exe
+D:\OOP-Windows-Forms\SolarSystem\SolarSystem\obj\Debug\SolarSystem.pdb
