@@ -14,16 +14,18 @@ namespace SolarSystem
     {
         Random random = new Random();
 
-        static Sun sun;
-        static Saturn saturn;
-        static MoonScythe moonScythe;
+        List<Astro> bodies;
+        Sun sun;
+        Saturn saturn;
+        MoonScythe moonScythe;
         
         public Form1()
         {
             InitializeComponent();
-            sun = new Sun(random.Next(100, 300), random.Next(100, 300), 200);
-            saturn = new Saturn(random.Next(300, 500), random.Next(300, 500), 150);
-            moonScythe = new MoonScythe(random.Next(300, 500), random.Next(300, 500), 100);
+            bodies = new List<Astro>();
+            bodies.Add(new Sun(random.Next(100, 300), random.Next(100, 300), 200));
+            bodies.Add(new Saturn(random.Next(300, 500), random.Next(200, 400), 150));
+            bodies.Add(new MoonScythe(random.Next(500, 700), random.Next(300, 500), 100));
         }
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -35,38 +37,40 @@ namespace SolarSystem
             using (Graphics g = e.Graphics)
             {
                 this.BackColor = Color.Navy;
-                if (moonScytheToolStripMenuItem.Checked)
-                    moonScythe.Draw(g);
-                if (sunToolStripMenuItem.Checked)
-                    sun.Draw(g);
-                if (saturnToolStripMenuItem.Checked)
-                    saturn.Draw(g);
+                foreach (var body in bodies)
+                    body.Draw(g);
             }
         }
 
         private void sunToolStripMenuItem_Click(object sender, EventArgs e)
         {
             sunToolStripMenuItem.Checked = !sunToolStripMenuItem.Checked;
+            bodies[0].IsShown = sunToolStripMenuItem.Checked;
             Refresh();
         }
 
         private void saturnToolStripMenuItem_Click(object sender, EventArgs e)
         {
             saturnToolStripMenuItem.Checked = !saturnToolStripMenuItem.Checked;
+            bodies[1].IsShown = saturnToolStripMenuItem.Checked;
             Refresh();
         }
 
         private void moonScytheToolStripMenuItem_Click(object sender, EventArgs e)
         {
             moonScytheToolStripMenuItem.Checked = !moonScytheToolStripMenuItem.Checked;
+            bodies[2].IsShown = moonScytheToolStripMenuItem.Checked;
             Refresh();
         }
 
         private void newBodiesPositionToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            sun = new Sun(random.Next(100, 300), random.Next(100, 300), 200);
-            saturn = new Saturn(random.Next(300, 500), random.Next(300, 500), 150);
-            moonScythe = new MoonScythe(random.Next(300, 500), random.Next(300, 500), 100);
+            bodies[0] = new Sun(random.Next(100, 300), random.Next(100, 300), 200);
+            bodies[0].IsShown = sunToolStripMenuItem.Checked;
+            bodies[1] = new Saturn(random.Next(300, 500), random.Next(300, 500), 150);
+            bodies[1].IsShown = saturnToolStripMenuItem.Checked;
+            bodies[2] = new MoonScythe(random.Next(300, 500), random.Next(300, 500), 100);
+            bodies[2].IsShown = moonScytheToolStripMenuItem.Checked;
             Refresh();
         }
     }
